@@ -1,0 +1,176 @@
+/* ------------------------      Mobile Css      -------------------------*/
+@media(max-width:450px)
+{
+  .navbar{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    .logo{
+      width: clamp(90px,12vw,150px);
+    }
+  }
+  .nav2{
+    .choose{
+      width: clamp(100px,12vw,125px);
+      font-size: small;
+      height: clamp(28px,12vw,30.2px);
+    }
+    p{
+       font-weight: 500;
+    }
+    button{
+      width: clamp(65px,12vw,75px);
+      height: clamp(30px,12vw,32px);
+      font-size: small;
+    }
+  }
+  .heroSection{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .heading1{
+      width: 90%;
+      max-width: 508px;
+      margin:auto;
+      margin-bottom: 5%;
+      margin-top: 5%;
+      font-size: 24px;
+      height:auto;
+
+    }
+    p{
+      width: 90%;
+      max-width: 508px;
+      margin: auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      font-size: 12px;
+    }
+    h3{
+       width: 90%;
+      max-width: 508px;
+      margin: auto;
+      margin: auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      font-size: 16px;
+    }
+   .enterEmail
+    {
+      width: 90%;
+      max-width: 508px;
+      height: auto;
+      min-height: 130px;
+      display: flex;
+      flex-direction: column;
+      gap: 10%;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 7%;
+      margin-top: 5%;
+      input{
+       width: 70%;
+      }
+      button{
+        width: 70%;
+        font-size: 14px;
+      }
+    }
+  }
+  .lowerPart
+  {
+    padding-left:5%;
+    padding-right: 5%;
+  }
+    .content
+    {
+      height:auto;
+      .contentHeading{
+        font-size: 16px;
+      }
+      .contentImg img{
+        width:90%;
+        max-width:  140px;
+        height:auto;
+        max-height:196px;
+      }
+      .question{
+        h2{
+          font-size: 16px;
+        }
+        .ques{
+          height: 90%;
+          max-height: clamp(75px,20%,84px);
+          width:90%;
+          font-size: 16px;
+        }
+      }
+      .enterEmail2
+      {
+        width: 90%;
+        max-width: 508px;
+        height: auto;
+        min-height: 130px;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        align-items: center;
+        input{
+          width: 70%;
+        }
+        button{
+          width: 70%;
+          font-size: 14px;
+        }
+
+      }
+      h3{
+        width: 90%;
+        font-size: 12px;
+      }
+    }
+  .aboutNetflix
+  {
+    width: 100%;
+    margin: 0%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 12px;
+    span{
+      display: flex;
+      align-self: flex-start;
+    }
+  }
+  .aboutSection{
+    margin-left:0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .credit{
+    p{
+      font-size: 12px;
+      width: auto;
+      height: auto;
+    }
+    .addressOfDev{
+    font-size:12px;
+    width: auto;
+    height: auto;
+  }
+  }
+  .alertImp{
+    font-size: 12px;
+    width: auto;
+    height: auto;
+  }
+  .connectBoth{
+    display: none;
+  }
+}
