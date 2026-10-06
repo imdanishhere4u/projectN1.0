@@ -6,7 +6,7 @@
 /* upperPart */
 .upperPart
 {
-  background-image: url("Image/Background Image.jpg");
+  background-image: url("image/Background Image.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
