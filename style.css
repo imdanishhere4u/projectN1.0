@@ -346,8 +346,8 @@
 .aboutSection
 {
   display: flex;
-  justify-content: space-between;
-  margin: -12px 0px 14px -18px;
+  justify-content:space-between;
+  margin: -12px 0px 14px 0px;
   height:auto;
   margin-top: 36px;
   .column1
